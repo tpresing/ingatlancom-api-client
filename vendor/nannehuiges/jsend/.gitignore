@@ -1,0 +1,10 @@
+vendor/
+*.DS_Store
+composer.lock
+Guardfile
+build
+
+
+#phpstorm
+.idea/
+composer.phar
