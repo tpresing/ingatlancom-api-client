@@ -4,14 +4,15 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": ">=5.5",
-        "guzzlehttp/guzzle": "^6.2",
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/event-dispatcher": "^6.0",
         "nannehuiges/jsend": "^2.1",
-        "tedivm/stash": "^0.14"
+        "tedivm/stash": "^1.2.1"
     },
     "require-dev": {
+        "phpmd/phpmd": "^1.5",
         "phpunit/phpunit": "^4.8",
-        "phpmd/phpmd": "^2.6",
         "squizlabs/php_codesniffer": "^2.9"
     },
     "scripts": {
